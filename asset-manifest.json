@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/shopingcart/static/css/main.1de72dd7.chunk.css",
-    "main.js": "/shopingcart/static/js/main.7022d666.chunk.js",
-    "main.js.map": "/shopingcart/static/js/main.7022d666.chunk.js.map",
+    "main.css": "/shopingcart/static/css/main.ebaf9207.chunk.css",
+    "main.js": "/shopingcart/static/js/main.307e2719.chunk.js",
+    "main.js.map": "/shopingcart/static/js/main.307e2719.chunk.js.map",
     "runtime-main.js": "/shopingcart/static/js/runtime-main.791db3bb.js",
     "runtime-main.js.map": "/shopingcart/static/js/runtime-main.791db3bb.js.map",
-    "static/js/2.05dfdebf.chunk.js": "/shopingcart/static/js/2.05dfdebf.chunk.js",
-    "static/js/2.05dfdebf.chunk.js.map": "/shopingcart/static/js/2.05dfdebf.chunk.js.map",
+    "static/js/2.43955308.chunk.js": "/shopingcart/static/js/2.43955308.chunk.js",
+    "static/js/2.43955308.chunk.js.map": "/shopingcart/static/js/2.43955308.chunk.js.map",
     "index.html": "/shopingcart/index.html",
-    "precache-manifest.364b763ad8d1fbdfc60b8eb708d37b1d.js": "/shopingcart/precache-manifest.364b763ad8d1fbdfc60b8eb708d37b1d.js",
+    "precache-manifest.09c43f256b1123f298fc390a28b8693a.js": "/shopingcart/precache-manifest.09c43f256b1123f298fc390a28b8693a.js",
     "service-worker.js": "/shopingcart/service-worker.js",
-    "static/css/main.1de72dd7.chunk.css.map": "/shopingcart/static/css/main.1de72dd7.chunk.css.map",
-    "static/js/2.05dfdebf.chunk.js.LICENSE.txt": "/shopingcart/static/js/2.05dfdebf.chunk.js.LICENSE.txt",
+    "static/css/main.ebaf9207.chunk.css.map": "/shopingcart/static/css/main.ebaf9207.chunk.css.map",
+    "static/js/2.43955308.chunk.js.LICENSE.txt": "/shopingcart/static/js/2.43955308.chunk.js.LICENSE.txt",
     "static/media/cart.031b3d0f.svg": "/shopingcart/static/media/cart.031b3d0f.svg",
     "static/media/filter.f67c7dfd.svg": "/shopingcart/static/media/filter.f67c7dfd.svg",
     "static/media/item1.png": "/shopingcart/static/media/item1.0b4c7b23.png",
-    "static/media/logo.svg": "/shopingcart/static/media/logo.5d5d9eef.svg",
     "static/media/minus.ca81d314.svg": "/shopingcart/static/media/minus.ca81d314.svg",
     "static/media/plus.1e71bac7.svg": "/shopingcart/static/media/plus.1e71bac7.svg",
     "static/media/search.1d83a9b4.svg": "/shopingcart/static/media/search.1d83a9b4.svg",
@@ -24,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.791db3bb.js",
-    "static/js/2.05dfdebf.chunk.js",
-    "static/css/main.1de72dd7.chunk.css",
-    "static/js/main.7022d666.chunk.js"
+    "static/js/2.43955308.chunk.js",
+    "static/css/main.ebaf9207.chunk.css",
+    "static/js/main.307e2719.chunk.js"
   ]
 }
