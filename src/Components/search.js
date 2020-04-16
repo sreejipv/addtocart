@@ -1,12 +1,10 @@
-import React, { useState,useContext, useRef } from  'react'
+import React, { useState,useContext } from  'react'
 import { ReactComponent as Icon} from '../SVG/search.svg';
-import ProductsDataContext from '../Context/ProductsContext'
 import SearchTermContext from '../Context/SearchTerm'
 
 const SearchComponent = props => {
   const [isOpen, setIsOpen] = useState(true)
-  const { products, setProducts } = useContext(ProductsDataContext)
-  const { term, setTerm } = useContext(SearchTermContext)
+  const { setTerm } = useContext(SearchTermContext)
 
   const baseStyles = {
     open: {

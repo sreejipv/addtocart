@@ -1,7 +1,5 @@
 import React, { useState, useContext, useEffect,useRef } from  'react'
 import Tab from './Tab'
-import ProductsDataContext from '../Context/ProductsContext'
-import SpinnerContext from '../Context/SpinnerContext'
 import SortContext from '../Context/SortContext'
 
 const Tabs = ({ parentCallback }) => {
@@ -11,7 +9,6 @@ const Tabs = ({ parentCallback }) => {
   const [showModal, setShowModal] = useState(true)
   const width = window.innerWidth
   const breakpoint = 620
-
 
   useEffect(()=>{
     setSorttype('Price -- High Low')
@@ -34,8 +31,6 @@ const Tabs = ({ parentCallback }) => {
     setShowModal(false)
     parentCallback(false);
   }
-  console.log(showModal)
-
 
 
     return(

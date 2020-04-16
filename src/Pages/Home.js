@@ -1,23 +1,16 @@
 import React, { useContext, useState } from "react";
 
 import "../App.scss";
-
 import AllProducts from "../Components/AllProducts";
 import OverlayContext from "../Context/OverlayContext";
 import Filter from "../Components/Filter";
 import HeaderComponent from "../Components/Header";
 import Tabs from "../Components/Tabs";
 import MobileFilter from "../Components/MobileFilter";
-
+import Footer from '../Components/Footer'
 function Home() {
 
-	const [cartCount, setCartCount] = useState([]);
   const {showOverlay} = useContext(OverlayContext)
-  console.log('showOverlay',showOverlay)
-
-  function addItem(count) {
-    setCartCount(count)
-  }
 
   return (
     <React.Fragment>
@@ -34,9 +27,10 @@ function Home() {
           <div className="mobile-only">
             <MobileFilter />
           </div>
-          <AllProducts addItem={addItem} />
+          <AllProducts />
         </div>
       </div>
+      <Footer/>
     </React.Fragment>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState,useEffect, useRef, useContext } from  'react'
+import React, { useState, useContext } from  'react'
 import { ReactComponent as FilterIcon} from '../SVG/filter.svg';
 import { ReactComponent as SortIcon} from '../SVG/sort.svg';
 import OverlayContext from '../Context/OverlayContext'

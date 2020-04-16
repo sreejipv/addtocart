@@ -13,10 +13,7 @@ const [rightvalue , setRightvalue] = useState(10)
 const [max] = useState(100)
 const [min] = useState(1)
 const [gapValue, setGapValue] = useState(0)
-const activeLeft = '#ccc'
-const inactiveLeft = 'transparent'
-const { products, setProducts } = useContext(ProductsDataContext)
-const { range, setRange } = useContext(FilterContext)
+const { setRange } = useContext(FilterContext)
 
 
 function handleLeftrange(e){
@@ -73,9 +70,6 @@ const styledValueEnd = {
   position: 'absolute',
   left: '29px',
 }
-
-
-
     return(
       <div className="filterSlider">
         <p className="tLeft fBold desktop-only">Filters</p>
@@ -100,8 +94,6 @@ const styledValueEnd = {
             <div className="modal-bottom--child fBold cPointer w_50 bLeft-grey" onClick={()=> { setRange({left: leftvalue *100, right: rightvalue *100}); parentCallback(false) }}>
               <span>Apply</span>
             </div>
-       
-        
           </div>
       </div>
 

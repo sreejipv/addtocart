@@ -1,4 +1,4 @@
-import React, { useState,useEffect, useRef } from  'react'
+import React from  'react'
 import { ReactComponent as Icon} from '../SVG/star.svg';
 import SearchComponent from './search'
 import CartComponent from './CartComponent'
@@ -6,7 +6,6 @@ import { NavLink } from 'react-router-dom';
 
 
 const HeaderComponent = props => {
-    // console.log(props.cartCount)
 
     return(
       <div className="header flex">
