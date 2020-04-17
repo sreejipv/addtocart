@@ -178,7 +178,12 @@ input {
     /* Use a linear gradient to generate only the 2px height background */
     background-size: 100% 2px;
     pointer-events: none;
+    &.upper {
+      left: 13px;
+    }
     &.lower {
+      left: -6px;
+
       z-index: 999;
       &_copy {
         top: 44px;
@@ -258,7 +263,7 @@ input {
     width: 100%;
   }
   &__left {
-    width: 280px;
+    width: 350px;
     padding: 10px 10px;
     border-right: 1px solid #ccc;
     margin-right: 11px;
@@ -289,7 +294,7 @@ input {
   width: 152px;
   display: flex;
   flex-direction: column;
-  padding-right: 20px;
+  padding-right: 17px;
   justify-content: space-between;
 
   p {
